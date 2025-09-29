@@ -1,0 +1,12 @@
+[package]
+name = "dirhash"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+walkdir = "2"
+sha2 = "0.10"
+hex = "0.4"
+clap = { version = "4", features = ["derive"] }
+rayon = "1.10"
